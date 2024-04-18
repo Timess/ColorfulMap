@@ -1,0 +1,10 @@
+name: ColorfulMap
+version: '${project.version}'
+main: cn.lunadeer.colorfulmap.ColorfulMap
+api-version: '1.20'
+load: STARTUP
+folia-supported: true
+commands:
+  tomap:
+    description: 将图片转换为地图画
+    usage: /tomap <图片url> [缩放比例(默认1)]
